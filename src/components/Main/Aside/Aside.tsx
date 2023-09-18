@@ -21,7 +21,7 @@ export function Aside() {
   const [itemsMenuSelected, setItemMenuSelected] = useState<number | null>(null)
 
   return (
-    <aside className="h-full w-[248px] border-r border-gray-400">
+    <aside className="h-full max-w-[15.5rem] w-full border-r border-gray-400">
       <div>
         {itemsMenu.map((item, index) => {
           return (

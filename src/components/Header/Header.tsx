@@ -8,7 +8,7 @@ import Arrow from '@/assets/Arrow.png'
 
 export function Header() {
   return (
-    <header className="w-full h-20 flex items-center px-6 gap-12">
+    <header className="w-full h-28 flex items-center px-6 gap-12 border-b border-gray-400">
       <Image src={Logo} alt="Logo Nexaas" />
 
       <div className="w-[1px] h-full bg-gray-400"></div>

@@ -19,7 +19,7 @@ export function Header() {
           <input
             type="text"
             placeholder="Busque por clientes"
-            className="px-1 py-1 outline-blue-600"
+            className="max-w-[20rem] w-full px-1 py-1 outline-blue-600"
           />
         </div>
         <div className="flex items-center gap-20">

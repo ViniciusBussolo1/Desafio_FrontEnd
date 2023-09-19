@@ -1,9 +1,6 @@
-import Image from 'next/image'
-
 import { Aside } from './Aside/Aside'
 import { ItemsOverview } from './ItemsOverview/ItemsOverview'
-
-import Avatar from '@/assets/avatar-admin.png'
+import { Table } from './Table/Table'
 
 export function Main() {
   return (
@@ -25,26 +22,7 @@ export function Main() {
           <div className="h-5 w-1 bg-blue-600 "></div>
           <h1 className="font-semibold text-lg">Clientes Cadastrados</h1>
         </div>
-        <table className="w-full mt-2 ml-5 border-separate border-spacing-y-11">
-          <tr>
-            <td>
-              <Image src={Avatar} alt="Icon Avatar" />
-            </td>
-            <td>Márcio Braga</td>
-            <td>marcio.braga@minhaempresa.com</td>
-            <td>(21) 98987-7650</td>
-            <td>adimpente</td>
-          </tr>
-          <tr>
-            <td>
-              <Image src={Avatar} alt="Icon Avatar" />
-            </td>
-            <td>Márcio Braga</td>
-            <td>marcio.braga@minhaempresa.com</td>
-            <td>(21) 98987-7650</td>
-            <td>adimpente</td>
-          </tr>
-        </table>
+        <Table />
       </section>
     </main>
   )

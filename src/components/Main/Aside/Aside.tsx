@@ -40,7 +40,6 @@ export function Aside() {
                 </div>
               ) : (
                 <div
-                  key={index}
                   className="h-14 flex items-center pl-6 cursor-pointer hover:bg-blue-300 hover:font-semibold"
                   onClick={() => setItemMenuSelected(index)}
                 >

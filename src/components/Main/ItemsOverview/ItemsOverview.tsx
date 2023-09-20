@@ -1,6 +1,6 @@
 interface itemsOverviewProps {
   title: string
-  result: string
+  result: string | number | undefined
 }
 
 export function ItemsOverview({ title, result }: itemsOverviewProps) {

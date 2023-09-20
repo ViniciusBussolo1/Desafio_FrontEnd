@@ -25,10 +25,9 @@ export function Aside() {
       <div>
         {itemsMenu.map((item, index) => {
           return (
-            <>
+            <div key={index}>
               {itemsMenuSelected === index ? (
                 <div
-                  key={index}
                   className="h-14 flex items-center gap-5 cursor-pointer hover:bg-blue-300 hover:font-semibold"
                   onClick={() => setItemMenuSelected(index)}
                 >
@@ -49,7 +48,7 @@ export function Aside() {
                   </div>
                 </div>
               )}
-            </>
+            </div>
           )
         })}
       </div>

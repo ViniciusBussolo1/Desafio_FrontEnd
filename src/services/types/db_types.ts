@@ -17,7 +17,7 @@ export interface Database {
           name: string | null
           phone: string | null
           status: string | null
-          subscription_amount: string | null
+          subscription_amount: number | null
         }
         Insert: {
           created_at?: string
@@ -26,7 +26,7 @@ export interface Database {
           name?: string | null
           phone?: string | null
           status?: string | null
-          subscription_amount?: string | null
+          subscription_amount?: number | null
         }
         Update: {
           created_at?: string
@@ -35,7 +35,7 @@ export interface Database {
           name?: string | null
           phone?: string | null
           status?: string | null
-          subscription_amount?: string | null
+          subscription_amount?: number | null
         }
         Relationships: []
       }

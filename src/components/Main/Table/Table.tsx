@@ -7,7 +7,6 @@ import Avatar from '@/assets/avatar-admin.png'
 import supabase from '@/services/supabase'
 
 import { ChevronLeft, ChevronRight } from 'lucide-react'
-import { table } from 'console'
 
 interface Customers {
   created_at: string
